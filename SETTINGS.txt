@@ -1,0 +1,15 @@
+# This is the configuration file for BOT.py
+
+
+# This is the section for the Bot Token
+# DO NOT SHARE THIS WITH ANYONE
+BOT_TOKEN: 'Token goes here'
+
+# This is the channel ID (Not name, ID) to send the game codes to
+GAME_CHANNEL: 000000000000000000
+
+# THE ID of the role to be pinged when there is a game
+PING_ROLE: 000000000000000000
+
+# The time IN MINUTES between pings when a game is hosted | Default: 30
+PING_TIMEOUT: 30
