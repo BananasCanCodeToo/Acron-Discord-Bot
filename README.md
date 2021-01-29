@@ -41,12 +41,13 @@ The length in minutes between pingable games (regardless of how many games are c
 
 ## Usage
 ### Commands
-- !game <code>
-  - !game 05 67 28
-- !endgame
-  - !endgame
+
+* `!game <code>`
+  - ex. `!game 05 67 28`
+* `!endgame`
+  - ex. `!endgame`
 
 ### Features
-- Will not ping for a certain amount of time after the previous ping ([Timeout](#ping_timeout))
-- Only pings a specific role ([Ping](#ping_role))
-- Deletes game commands for games if they haven't ended their previous game
+* Will not ping for a certain amount of time after the previous ping ([Timeout](#ping_timeout))
+* Only pings a specific role ([Ping](#ping_role))
+* Deletes game commands for games if they haven't ended their previous game
