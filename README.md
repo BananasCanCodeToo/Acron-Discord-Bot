@@ -51,3 +51,10 @@ The length in minutes between pingable games (regardless of how many games are c
 * Will not ping for a certain amount of time after the previous ping ([Timeout](#ping_timeout))
 * Only pings a specific role ([Ping](#ping_role))
 * Deletes game commands for games if they haven't ended their previous game
+
+### Reaction Games
+1. Say a message tha includes a possilbe game code
+2. Wait for the bot to react (Issues may occur. If so, please make an issue request)
+3. React to the bot's reaction
+4. The bot will send the code into the [Game Channel](#game_channel)
+
