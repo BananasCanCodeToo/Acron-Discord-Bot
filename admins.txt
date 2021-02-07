@@ -1,0 +1,4 @@
+# Admins will be able to use the !adebug command
+# Enter the User IDs of all Admins on separate lines. Examples (Don't use "#" before the IDs):
+# 322879115541610508
+# 302999619498147841
