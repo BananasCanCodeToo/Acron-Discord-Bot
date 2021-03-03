@@ -3,13 +3,16 @@
 
 # This is the section for the Bot Token
 # DO NOT SHARE THIS WITH ANYONE
-BOT_TOKEN: 'Token goes here'
+BOT_TOKEN: 'Token Goes Here'
 
 # This is the channel ID (Not name, ID) to send the game codes to
 GAME_CHANNEL: 000000000000000000
 
 # THE ID of the role to be pinged when there is a game
-PING_ROLE: 000000000000000000
+SQUIRREL_ROLE: 000000000000000000
+
+# THE ID of the role to be pinged when there are 3 or more squirrels
+TREE_ROLE: 000000000000000000
 
 # The time IN MINUTES between pings when a game is hosted | Default: 30
 PING_TIMEOUT: 30

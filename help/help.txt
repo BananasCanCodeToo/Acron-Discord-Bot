@@ -1,0 +1,20 @@
+`!game <code>`
+Creates a game with a code
+
+
+`!endgame`
+Ends your previous game
+
+
+`!tree`
+Starts a vote to ping the trees (3 people required)
+
+
+`!arank [<user>]`
+Slightly more detailed information about your MEE6 rank
+(Aliases: `!ar`,`!ar`, `!abrank`, `!abr`)
+
+
+`!dashrank`
+Much more detailed info about your MEE6 rank
+(Aliases: `!rdash`, `!adash`, `!ad`, `!rd`, `!dashr`, `!dr`)

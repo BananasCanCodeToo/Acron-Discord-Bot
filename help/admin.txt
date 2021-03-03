@@ -1,0 +1,30 @@
+`!adebug <command> <args>`
+Debugs the bot
+
+
+`!send <message>`
+Sends a message as the bot
+(Aliases: `!sh`, `!msg`)
+
+
+`!sendchannel <channel <message>`
+Sends a message as the bot
+(Aliases: `!shc`, `!chmsg`)
+
+
+`!tdebug`
+Debugs tree ping (shows all users in tree ping)
+
+
+`!endgame <user>`
+Ends the game of a user
+
+
+`!tree [<pass>]`
+Automatically passes the tree ping
+(Aliases: `!treeping`, `!pingtree`, `!tr`)
+
+
+`!dashrank [<user>]`
+Much more detailed info about your MEE6 rank
+(Aliases: `!rdash`, `!adash`, `!ad`, `!rd`, `!dashr`, `!dr`)

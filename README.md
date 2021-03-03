@@ -3,12 +3,14 @@
 * [Settings](#settings)
 * [Setup](#setup)
 * [Usage](#usage)
-## Required Software
-* Python 3.8
+* [Other](#other)
+## **Required Software**
+* Python 3.8+
 * Discord.py `$ pip install discord`
-* PyYAML     `$ pip install pyyaml`
+* PyYAML `$ pip install pyyaml`
+* Requests `$ pip install requests`
 
-## Settings
+## **Settings**
 ### BOT_TOKEN
 This is where you will put your bot token.
 #### Make A Bot
@@ -23,39 +25,43 @@ This is where you will put your bot token.
 ### GAME_CHANNEL
 The **ID** of the channel you want the games redirected to
 
-### PING_ROLE
+### SQUIRREL_ROLE
 The **ID** of the role to be pinged upon game creation
+
+### TREE_ROLE
+The **ID** of the role to be pinged when a tree ping succeeds
 
 ### PING_TIMEOUT
 The length in minutes between pingable games (regardless of how many games are created)
 
-## Setup
-### Download & Run Locally 
+## **Setup**
+### Download & Run Locally
 1. Clone/Download the files
 2. Put them where you want on your computer
 3. run SETUP.py
 4. Put your settings into SETTINGS.txt
 5. Run the Main bot with BOT.py
 
-## Usage
+## **Usage**
 ### Commands
 
 * `!game <code>`
   - ex. `!game 05 67 28`
 * `!endgame`
   - ex. `!endgame`
-* `!adebug <command> <args>`
-  - ex. `!adebug games reset`
+* `!tree`
+  - ex. `!tree`
+* `!arank [<user>]`
+  - ex. `!arank`
 
 ### Features
 * Will not ping for a certain amount of time after the previous ping ([Timeout](#ping_timeout))
 * Only pings a specific role ([Ping](#ping_role))
-* Deletes game commands for games if they haven't ended their previous game
-* Ends game automatically after 2 hours
+* Ends game automatically after 1 hour
+* Ends games with 3 GG's within 5 minutes of each other (GAME CREATOR HAS TO SAY GG)
+* MEE6 Rank API with custom rank commands
+* Tree ping command to notify trees that 3 (or more) squirrels are available
+* Send commands to send messages as the bot
 
-### Reaction Games
-1. Say a message tha includes a possible game code
-2. Wait for the bot to react (Issues may occur. If so, please make an issue request)
-3. React to the bot's reaction
-4. The bot will send the code into the [Game Channel](#game_channel)
-
+## **Other**
+I'm just a programming hobbyist that likes to make discord bots.
