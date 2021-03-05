@@ -7,7 +7,7 @@ from discord.ext import commands, tasks
 from discord import Embed, Member
 from datetime import timedelta
 from itertools import cycle
-import UTILITIES as utl
+import things.UTILITIES as utl
 
 async def startgame(user, code, guild, bot):
     x = datetime.datetime.now()

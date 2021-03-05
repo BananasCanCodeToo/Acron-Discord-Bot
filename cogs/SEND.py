@@ -3,7 +3,7 @@ import datetime
 from discord.ext import commands, tasks
 from datetime import timedelta
 from itertools import cycle
-import UTILITIES as utl
+import things.UTILITIES as utl
 
 class Send(commands.Cog):
     def __init__(self, bot):

@@ -4,7 +4,7 @@ from discord.ext import commands, tasks
 from discord import Embed, Member
 from datetime import timedelta
 from itertools import cycle
-import UTILITIES as utl
+import things.UTILITIES as utl
 
 
 
@@ -90,6 +90,7 @@ class Tree(commands.Cog):
                         self.lastPing = x
                         self.message = None
                         utl.log('Forced Tree ping [TIMEOUT]',ctx.author)
+                        self.force[ctx.author.id] = False
             elif not utl.getadmin(ctx.author):
                 await ctx.send('*You do not have permission to do that*')
         elif self.active == False:

@@ -10,8 +10,8 @@ from discord.ext import commands, tasks
 from discord import Embed, Member
 from datetime import timedelta
 from itertools import cycle
-import UTILITIES as utl
-import BOTUTL as butl
+import things.UTILITIES as utl
+import things.BOTUTL as butl
 
 # Registering the bot with a prefix
 intents = discord.Intents().all()
@@ -341,7 +341,8 @@ async def adebug(ctx, cmd='', *, args=''):
 bot.load_extension("cogs.TREE")
 bot.load_extension("cogs.GG")
 bot.load_extension("cogs.SEND")
-bot.load_extension("cogs.RANK")
+if utl.settings()['MEE6_API'] == True:
+    bot.load_extension("cogs.RANK")
 
 # BOT TOKEN TO RUN!!!! DO NOT SHARE!!!!
 botToken = utl.settings()['BOT_TOKEN']

@@ -5,8 +5,7 @@ from discord.ext import commands, tasks
 from discord import Embed, Member
 from datetime import timedelta
 from itertools import cycle
-import UTILITIES as utl
-import BOT as main
+import things.UTILITIES as utl
 
 class GGendgame(commands.Cog):
     def __init__(self, bot):

@@ -14,5 +14,8 @@ SQUIRREL_ROLE: 000000000000000000
 # THE ID of the role to be pinged when there are 3 or more squirrels
 TREE_ROLE: 000000000000000000
 
+# Use MEE6 Rank API with your server? (ONLY ENABLE IF YOU HAVE MEE6)
+MEE6_API: False
+
 # The time IN MINUTES between pings when a game is hosted | Default: 30
 PING_TIMEOUT: 30
