@@ -10,11 +10,17 @@ Ends your previous game
 Starts a vote to ping the trees (3 people required)
 
 
-`!arank [<user>]`
+`!rank [<user>]`
 Slightly more detailed information about your MEE6 rank
-(Aliases: `!ar`,`!ar`, `!abrank`, `!abr`)
+Turn off MEE6's built in rank command for better usage
+(Aliases: `!ar`, `!abrank`, `!abr`, `!arank`)
 
 
 `!dashrank`
 Much more detailed info about your MEE6 rank
 (Aliases: `!rdash`, `!adash`, `!ad`, `!rd`, `!dashr`, `!dr`)
+
+
+`!leaderboard`
+Displays information about the top 10 users in the server (And you if you aren't top 10 yet)
+(Aliases: `!al`, `!aleaderboard`, `!alevels`, `!ldrbrd`, `!aleaderboard`)
