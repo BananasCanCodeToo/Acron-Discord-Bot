@@ -336,6 +336,9 @@ async def adebug(ctx, cmd='', *, args=''):
     if playerDebug == False:
         await ctx.send('[DEBUG] You do not have permission to use `!adebug`')
 
+@bot.command(aliases=['github','src'])
+async def source(ctx):
+    await ctx.send('Developed by `Chunk IV` / `BananasCanCodeToo` on Github\n\nhttps://github.com/BananasCanCodeToo/Acron-Discord-Bot')
 
 
 bot.load_extension("cogs.TREE")
